@@ -18,3 +18,15 @@ marcojan163@gmail.com
 3. git add .    : envía los cambios de working directori a stagin area
 4. git commit -m "Mi Primer Cambio"     : pasa los cambios de stagin are hacia repository 
 5. git log      : te muestra todos los commits
+
+
+archivo .gitignore : se listan los archivos queno se enviarán al repositor git
+
+
+# BRANCH
+1. Main (produccion) : el ambiente para los clientes
+2. desarrollo (dev)  : hambiente de desarrollo
+3. QA (Calidad de Servicio) : se pureba el desarrollo
+4. UAT (Pre Produccion)     : antes de mandar a produccion
+
+1 (desarrollo) => 2(QA) => 3(UAT)  => UAT (PRODUCCION)
